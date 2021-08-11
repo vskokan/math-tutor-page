@@ -24,6 +24,33 @@ header {
     z-index: 1;
 }
 
+li a {
+    text-decoration: none;
+}
+
+.menu a:link {
+    /* color: #fff; */
+    text-decoration: none;
+}
+
+.menu a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  .menu a:hover {
+    color: var(--yellow);
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  .menu a:active {
+    color: var(--yellow);
+    text-decoration: none;
+  }
+
 .contacts {
     display: flex;
     flex-direction: row;
