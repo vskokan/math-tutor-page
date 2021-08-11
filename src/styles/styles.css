@@ -1,0 +1,25 @@
+@import url('./header.css');
+@import url('./about.css');
+@import url('./education.css');
+@import url('./prices.css');
+@import url('./reviews.css');
+@import url('./feedback.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    width: 100%;
+    /* --yellow: rgb(133, 90, 252); */
+    --yellow: rgb(255, 218, 7);
+    --blue: rgb(64, 13, 204);
+}
+
+.wave {
+    margin: 0;
+    height: 150px;
+    background-image: url(./../assets/waveblack.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top:-5px;
+}

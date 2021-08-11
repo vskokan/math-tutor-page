@@ -1,0 +1,60 @@
+.feedback {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 65px;
+}
+
+.feedback-header {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.feedback-text {
+    margin: 10px 0px;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback-text a {
+    display: block;
+    width: 300px;
+    margin:  10px 0px;
+}
+
+.messengers {
+    margin: 5px 0px;
+    font-size: 38px;
+}
+
+.feedback .phone {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.fa-telegram-plane {
+    color: rgb(14, 112, 240);
+}
+
+.fa-whatsapp {
+    color: rgb(0, 252, 55);
+}
+
+.fa-viber {
+    color: rgb(183, 0, 255);
+}
+
+.madeby {
+    padding: 25px;
+    text-align: center;
+    background-color: var(--yellow);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
