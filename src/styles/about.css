@@ -4,7 +4,8 @@
     flex-direction: row;
     justify-content: space-around;
     color: #fff;
-    padding: 20px;
+    padding: 5vh;
+    height: 80vh;
 }
 
 .quote {
