@@ -5,9 +5,13 @@
 @import url('./reviews.css');
 @import url('./feedback.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,400;0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 html {
     scroll-behavior: smooth; 
+    width: 100%;
 }
 
 body {
@@ -20,10 +24,32 @@ body {
 
 .wave {
     margin: 0;
-    height: 150px;
+    height: 16vh;
     background-image: url(./../assets/waveblack.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
     top:-5px;
+    /* width: 100vw; */
+}
+
+.wavetop {
+    margin: 0;
+    height: 20.3vh;
+    /* position: relative;
+    top: -80px;
+    margin-top: 130px; */
+    background-image: url(./../assets/wavestop3.svg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+
+.wavebottom {
+    margin: 0;
+    height: 20.3vh;
+    /* position: relative;
+    top: -80px; */
+    background-image: url(./../assets/wavesbottom.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }

@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сайт для Вадюши</title>
-    <link rel="stylesheet" href="./src/styles/styles.css">
+    <link rel="stylesheet" href="./../src/styles/styles.css">
     <script src="https://kit.fontawesome.com/b0a8fe8595.js" crossorigin="anonymous"></script>
     
 </head>
@@ -41,7 +41,7 @@
     </header>
     <main>
         <section class="about">
-            <img class="photo" src="./src/assets/vadym.jpg">
+            <img class="photo" src="./../src/assets/vadym.jpg">
            <div class="text">
                <div class="name">
                    Пархомчук Вадим Александрович
@@ -64,9 +64,10 @@
         </section>
         <!-- <img class="wave" src="./../src/assets/waveblack.svg"> -->
         <div class="wave" id="sec1"></div>
-        <section class="education" >
+        <section class="education" id="sec1">
             <div class="quote">
                 «Холодные числа, внешне сухие формулы математики полны внутренней красоты и жара сконцентрированной в них мысли»
+                <div class="author"> – А. Д. Александров</div>
             </div>
             <div class="education-header">Обо мне</div>
             <div class="uni-work">
@@ -75,7 +76,7 @@
                         <i class="fas fa-university"></i>Образование
                     </div>
                     <div class="place">
-                        ХНУ им. В.Н. Каразина, <br> факультет математики и информатики, <br>кафедра прикладной математики
+                        ХНУ им. В.Н. Каразина
                     </div>
                     <div class="role">
                         Магистр прикладной математики
@@ -102,20 +103,25 @@
                 Провожу занятия как с выездом к Вам, так и у себя, возможен и онлайн-формат.
             </div>
         </section>
-        <img src="./src/assets/wavetop.svg" id="sec2">
-
-        <section class="prices">
+        <!-- <img src="./../src/assets/wavetop.svg" id="sec2"> -->
+        <div class="wavetop" ></div>
+        <div class="priceanchor" id="sec2"></div>
+        <section class="prices"  >
             <div class="prices-header">
                 Цены и форматы занятий
             </div>
-            <div class="list">
+            <div class="list"  >
                 <div class="card">
                     <div class="card-header">
                         Ознакомительное занятие
                     </div>
                     <div class="description">
                         Познакомимся, определим уровень знаний и цели, обсудим организационные моменты
+                        <div class="adress">
+                            <i class="fas fa-map-marker-alt"></i> На ваш выбор
+                        </div>
                     </div>
+                    
                     <div class="price">
                         1000₴/ч
                     </div>
@@ -125,8 +131,10 @@
                         Выезд к Вам
                     </div>
                     <div class="description">
-                        Обычное занятие у ученика дома <br>
-                        <i class="far fa-clock"></i> с 15:00 до 20:00
+                        Обычное занятие у ученика дома
+                        <div class="time">
+                            <i class="far fa-clock"></i> с 15:00 до 20:00
+                        </div>
                     </div>
                     <div class="price">
                         1500₴/ч <br>
@@ -138,9 +146,14 @@
                         Занятие у репетитора
                     </div>
                     <div class="description">
-                        Обычное занятие у репетитора <br>
-                        <i class="fas fa-map-marker-alt"></i> Краснодарская 179/55
-                        <i class="far fa-clock"></i> с 15:00 до 20:00
+                        Обычное занятие у репетитора
+                        <div class="adress">
+                            <i class="fas fa-map-marker-alt"></i> Краснодарская 179/55
+                        </div>
+                        
+                        <div class="time">
+                            <i class="far fa-clock"></i> с 15:00 до 20:00
+                        </div>
                     </div>
                     <div class="price">
                         1200₴/ч <br>
@@ -160,15 +173,16 @@
                 </div>
             </div>
         </section>
-        <img src="./src/assets/wavebottom.svg" id="sec3">
-
-        <section class="reviews">
+        <div class="wavebottom" ></div>
+        <!-- <img src="./../src/assets/wavebottom.svg" id="sec3"> -->
+        <div class="reviewsanchor" id="sec3"></div>
+        <section class="reviews" >
             <div class="review-info">
                 <div class="reviews-header">
                     Отзывы на мои занятия
                 </div>
                 <div class="reviews-text">
-                    Слева представлены некоторые из отзывов, оставленные моими клиентами. <br> <a href="">Здесь</a> вы можете увидеть все отзывы и ознакомиться с моим профилем на сайте buki.com.ua
+                    Справа представлены некоторые из отзывов, оставленные моими клиентами. <br> А <a href="">здесь</a> вы можете увидеть все отзывы и ознакомиться с моим профилем на сайте buki.com.ua
                 </div>
             </div>
             <div class="carousel">
@@ -181,6 +195,7 @@
             
 
         </section>
+        
         <section class="feedback" id="sec4">
             <div class="feedback-header">
                 Контакты и запись на занятие
@@ -203,10 +218,10 @@
 
         </section>
         <div class="madeby">
-            Made by vskokan <br>
+            <span style="font-family: 'VT323', monospace; font-size: 1.5vw;">Made by vskokan </span><br>
             2021
         </div>
     </main>
 </body>
-<script src="./src/scripts/reviews.js"></script>
+<script src="./../src/scripts/reviews.js"></script>
 </html>

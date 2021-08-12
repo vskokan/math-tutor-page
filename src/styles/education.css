@@ -1,13 +1,15 @@
 .education {
-    padding: 20px;
-    height: 80vh;
+    padding: 5vh;
+    /* height: 70vh; */
+    margin-bottom: 5vh;
 }
 
 .education-header {
     text-align: center;
     background-color: #fff;
     color: #000;
-    font-size: 60px;
+    /* font-size: 60px; */
+    font-size: 3vw;
     font-weight: 700;
     margin-bottom: 60px;
 }
@@ -28,17 +30,17 @@
 }
 
 .education .header {
-    font-size: 48px;
+    font-size: 1.8vw;
     font-weight: 700;
 }
 
 .university .header, .work .header {
-    font-size: 28px;
+    font-size: 1.8vw;
     font-weight: 700;
 }
 
 .place, .role {
-    font-size: 20px;
+    font-size: 1.6vw;
     font-weight: 400;
     text-align: center;
     margin-top: 5px;
@@ -47,14 +49,14 @@
 
 .role {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.6vw;
     color: rgb(64, 13, 204);
     text-transform: uppercase;
 }
 
 .university, .work {
     margin-top: 15px;
-    width: 500px;
+    /* width: 500px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,8 +64,8 @@
 
 .education .text {
     /* padding: 20px; */
-    margin-top: 50px;
-    font-size: 24px;
+    margin-top: 55px;
+    font-size: 2vw;
     font-weight: 500;
     text-align: center;
 }

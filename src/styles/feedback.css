@@ -5,17 +5,19 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    padding: 65px;
+    padding: 5vh;
+    min-height: 70vh;
 }
 
 .feedback-header {
-    font-size: 45px;
+    font-size: 3vw;
     font-weight: 700;
+    margin-bottom: 3vh;
 }
 
 .feedback-text {
     margin: 10px 0px;
-    font-size: 24px;
+    font-size: 2.1vw;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -24,18 +26,19 @@
 
 .feedback-text a {
     display: block;
-    width: 300px;
-    margin:  10px 0px;
+    /* width: 300px; */
+    margin:  4vh 0px;
 }
 
 .messengers {
     margin: 5px 0px;
-    font-size: 38px;
+    font-size: 2.3vw;
 }
 
 .feedback .phone {
-    font-size: 38px;
+    font-size: 2.3vw;
     font-weight: 700;
+    letter-spacing: 0.3vw;
 }
 
 .fa-telegram-plane {
@@ -51,10 +54,10 @@
 }
 
 .madeby {
-    padding: 25px;
+    padding: 20px;
     text-align: center;
     background-color: var(--yellow);
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.1vw;
 }

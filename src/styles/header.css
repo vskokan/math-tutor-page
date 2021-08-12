@@ -13,10 +13,11 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     color: rgb(255, 255, 255);
     background-color: #000;
     font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
+    font-size: 1.6vw;
     padding: 5vh 0px;
     height: 5vh;
     position: sticky;
@@ -60,7 +61,8 @@ li a {
 }
 
 .button {
-    border-radius: 20px;
+    border-radius: 15px;
+    letter-spacing: 2px;
     border: 3px solid var(--yellow);
     padding: 10px;
 }
@@ -72,5 +74,10 @@ li a {
 }
 
 .location, .phone, .button {
-    margin: 0px 5px;
+    margin: 0px 1vw;
 }
+
+.phone {
+    letter-spacing: 2px;
+}
+
