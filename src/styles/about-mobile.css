@@ -1,0 +1,53 @@
+@media (max-width: 480px) {
+
+    .about {
+        min-height: 40vh;
+        flex-direction: column;
+    }
+
+    .photo {
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        margin: 0;
+        margin-top: -2.5vh;
+        object-fit: cover;
+    }
+
+    .text {
+        margin: 0;
+        margin-top: 2vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .name, .occupation {
+        text-align: center;
+    }
+
+    .name {
+        font-size: 6vw;
+    }
+
+    .occupation {
+        font-size: 5vw;
+        margin: 0;
+    }
+
+    .about ul {
+        font-size: 4vw;
+        margin: 0;
+        margin-top: -2vh;
+    }
+
+    .about .button {
+        font-size: 5vw;
+        letter-spacing: 1px;
+        padding: 1vh;
+        margin-top: -1vh;
+        
+    }
+
+}

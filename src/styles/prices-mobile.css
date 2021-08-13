@@ -1,0 +1,40 @@
+@media (max-width: 480px) {
+
+    .prices-header {
+        font-size: 8vw;
+        text-align: center;
+    }
+
+    .prices {
+        /* position: relative;
+        top: -20px; */
+        min-height: 30vh;
+        padding: 10px;
+        padding: 5vh 10px;
+    }
+
+    .list {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2vh;
+        padding: 5vh 0px;
+    }
+
+    .card {
+        width: 85%;
+    }
+
+    .card-header {
+        font-size: 6vw;
+    }
+
+    .description {
+        font-size: 5vw;
+    }
+
+    .price {
+        font-size: 7vw;
+    }
+    
+}

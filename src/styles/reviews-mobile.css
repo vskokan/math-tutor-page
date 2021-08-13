@@ -1,0 +1,62 @@
+@media (max-width: 480px) {
+
+    .reviews {
+        padding: 4vh 4vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .reviews-header {
+        font-size: 8vw;
+        margin-top: 6vh;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 5vh;
+    }
+
+    .reviews-text {
+        margin-bottom: 3vh;
+        font-size: 5vw;
+    }
+
+    .carousel .arrow {
+        font-size: 9vw;
+    }
+
+    .review-card {
+        height: 50vh;
+        width: 65vw;
+        padding: 10px;
+        
+    }
+
+    .unvisible {
+        display: none;
+    }
+
+    .review-author {
+        font-size: 6vw;
+    }
+    
+    .review-title {
+        font-size: 6vw;
+        text-align: center;
+       
+    }
+    
+    .review-text {
+        font-size: 4.5vw;
+        padding: 10px;
+        text-align: center;
+        margin-top: 3vh;
+        margin-bottom: 4vh;
+    }
+    
+    .rates {
+        margin: 10px 0px;
+        font-size: 24px;
+    }
+}

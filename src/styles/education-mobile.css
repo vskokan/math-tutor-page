@@ -1,0 +1,51 @@
+@media (max-width: 480px) {
+
+    .quote {
+        font-size: 6vw;
+        margin: 0;
+        margin-top: -6vh;
+    }
+
+    .quote .author {
+        font-size: 5vw;
+    }
+
+    .education {
+        padding: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    .education-header {
+        font-size: 8vw;
+        font-weight: 700;
+        margin-top: 4vh;
+        margin-bottom: 3vh;
+    }
+
+    .uni-work {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    
+    .university .header, .work .header {
+        font-size: 6vw;
+    }
+
+    .place, .role {
+        font-size: 5vw;
+        margin-top: 1vh;
+    }
+
+    .role {
+        font-size: 5vw;
+        font-weight: 700;
+    }
+
+    .education .text {
+        margin-top: 2vh;
+        font-size: 5.5vw;
+        text-align: left;
+    }
+
+}

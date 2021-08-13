@@ -1,0 +1,45 @@
+@media (max-width: 480px) {
+    header .menu {
+      display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .contacts {
+        font-size: 3.8vw;
+    }
+
+    .phone i {
+        display: none;
+    }
+
+    .contacts .button {
+        display: none;
+        
+    }
+
+    .mobile {
+        display: block;
+        font-size: 3.5vw;
+    }
+
+    .contacts {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    header {
+        /* padding-top: 12vw;
+        padding-bottom: 2vw; */
+        /* max-height: 5vh; */
+        height: unset;
+        padding: 20px;
+    }
+
+    html {
+        max-height: 100vh;
+    }
+  }

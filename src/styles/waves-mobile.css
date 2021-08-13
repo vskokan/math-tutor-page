@@ -1,0 +1,14 @@
+@media (max-width: 480px) {
+
+    .wavetop {
+    margin: 0;
+    height: 20.3vh;
+    /* position: relative;
+    top: -80px;
+    margin-top: 130px; */
+    background-image: url(./../assets/wavestop2.svg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+    
+}
