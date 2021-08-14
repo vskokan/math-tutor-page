@@ -35,12 +35,7 @@ header {
     display: none;
 }
 
-.block {
-    background-color: var(--yellow);
-    height: 0.5vh;
-    width: 4vh;
-    margin: 1vh 0;
-}
+
 
 li a {
     text-decoration: none;
