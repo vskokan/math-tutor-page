@@ -54,10 +54,10 @@
 }
 
 .madeby {
-    padding: 20px;
+    padding: 1vh;
     text-align: center;
     background-color: var(--yellow);
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 1.5vw;
+    font-size: 1vw;
 }

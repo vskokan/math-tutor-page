@@ -13,6 +13,10 @@
         padding: 5vh 10px;
     }
 
+    .priceanchor {
+        top: -6vh;
+    }
+
     .list {
         flex-direction: column;
         align-items: center;

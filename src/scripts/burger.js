@@ -1,10 +1,9 @@
-//const menu = document.querySelector('.menu')
 const burger = document.querySelector('.burger')
+const menuLinks = document.querySelectorAll('.menu-link')
 let isMenuOpened = false
 
 function showMenu () {
     const menu = document.querySelector('.menu')
-    //alert('Вадюша пупсик')
     isMenuOpened = true
     menu.className = 'menu mobile-showed'
     menu.style.display = 'flex'
@@ -16,9 +15,6 @@ function showMenu () {
 function closeMenu () {
     const menu = document.querySelector('.menu')
     menu.className = 'menu mobile-hidden'
-    //menu.style.display = 'none'
-    // setTimeout(() => {menu.style.display = 'none'}, 500)
-    //menu.style.animation = 'show 0.7s 1 backwards cubic-bezier(0.075, 0.82, 0.165, 1) reverse'
     isMenuOpened = false
     burger.removeEventListener('click', closeMenu)
     burger.addEventListener('click', showMenu)
@@ -45,4 +41,6 @@ function transformBurger () {
 }
 
 burger.addEventListener('click', showMenu)
-
+menuLinks.forEach(link => {
+    link.addEventListener("click", closeMenu)
+})

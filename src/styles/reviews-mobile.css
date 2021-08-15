@@ -9,6 +9,10 @@
         align-items: center;
     }
 
+    .reviewsanchor {
+        top: 0vh;
+    }
+
     .reviews-header {
         font-size: 8vw;
         margin-top: 6vh;
