@@ -125,9 +125,10 @@
         display: none;
     }
 
-    .phone {
+    header .phone {
         width: 100%;
         text-align: right;
+        margin-right: 3vw;
     }
 
     .contacts .button {
