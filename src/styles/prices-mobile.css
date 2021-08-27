@@ -30,11 +30,14 @@
     }
 
     .card-header {
-        font-size: 6vw;
+        font-size: 7vw;
+        height: 7vh;
     }
 
     .description {
         font-size: 5vw;
+        height: auto;
+        padding-bottom: 2vh;
     }
 
     .price {
