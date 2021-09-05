@@ -82,3 +82,9 @@
     position: relative;
     top: -15vh;
 }
+
+.discount {
+    margin-top: 10px;
+    font-size: 3vw;
+    text-align: center;
+}
