@@ -37,12 +37,18 @@
     font-size: 3vw;
     font-weight: 700;
     margin-bottom: 10vh;
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
 }
 
 .reviews-text {
     /* width: 70%; */
     margin-top: 10px;
     font-size: 1.8vw;
+    transform: translate(0px, -20%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
     
 }
 
@@ -51,7 +57,15 @@
     flex-direction: row;
     align-items:center ;
     justify-content: space-around;
+    transform: translate(0px, -20%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
 
+}
+
+.active {
+    transform: translate(0px, 0%);
+    opacity: 1;
 }
 
 .carousel .arrow {

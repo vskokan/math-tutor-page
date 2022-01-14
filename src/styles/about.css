@@ -21,6 +21,14 @@
     font-weight: 500;
     /* margin-top: 40px; */
     margin-bottom: 50px;
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.quote.active {
+    transform: translate(0px, 0%);
+    opacity: 1;
 }
 
 .quote .author {
@@ -36,7 +44,15 @@
     border: 3px solid var(--yellow);
     border-radius: 10px;
     margin-right: 5vw;
+    transform: translate(0px, 50px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
     /* width: 400px; */
+}
+
+.photo.active {
+    transform: translate(0px, 0%);
+    opacity: 1;
 }
 
 .about ul {
@@ -50,6 +66,37 @@
 
 .about li {
     margin: 5px 0px;
+    transform: translate(-10%, 0px);
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.about ul.active li:nth-child(1) {
+    transition: all 0.8s ease 0s;
+}
+
+.about ul.active li:nth-child(2) {
+    transition: all 0.8s ease 0.2s;
+}
+
+
+.about ul.active li:nth-child(3) {
+    transition: all 0.8s ease 0.4s;
+}
+
+
+.about ul.active li:nth-child(4) {
+    transition: all 0.8s ease 0.6s;
+}
+
+.about ul.active li:nth-child(5) {
+    transition: all 0.8s ease 0.8s;
+}
+
+
+.about ul.active li {
+    transform: translate(0%, 0px);
+    opacity: 1;
 }
 
 .about .button {
@@ -78,6 +125,14 @@ i {
     font-size: 3vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.name.active {
+    transform: translate(0px, 0%);
+    opacity: 1;
 }
 
 .occupation {
@@ -85,4 +140,14 @@ i {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: var(--yellow);
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+    
+}
+
+.occupation.active {
+    transform: translate(0px, 0%);
+    opacity: 1;
+    transition: all 0.8s ease 0.4s;
 }

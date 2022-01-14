@@ -5,6 +5,14 @@
     font-size: 3vw;
     font-weight: 700;
     background-color: transparent;
+    transform: translate(0px, -120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.prices-header.active {
+    transform: translate(0px, 0%);
+    opacity: 1;
 }
 
 .prices {
@@ -29,6 +37,15 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 5vh 0px;
+    transform: translate(0px, 20%);
+    opacity: 0;
+    transition: all 0.4s ease 0s;
+}
+
+.list.active {
+    transform: translate(0px, 0%);
+    opacity: 1;
+    transition: all 0.4s ease 0.2s;
 }
 
 .card {

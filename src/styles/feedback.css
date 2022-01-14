@@ -13,6 +13,14 @@
     font-size: 3vw;
     font-weight: 700;
     margin-bottom: 3vh;
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.feedback-header.active {
+    transform: translate(0px, 0%);
+    opacity: 1;
 }
 
 .feedback-text {
@@ -22,6 +30,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    transform: translate(0px, -20%);
+    opacity: 0;
+    transition: all 1s ease 0s;
+}
+
+.feedback-text.active {
+    transform: translate(0px, 0%);
+    opacity: 1;
 }
 
 .feedback-text a {
