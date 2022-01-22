@@ -50,4 +50,17 @@
         
     }
 
+    .quote {
+        margin-top: 0vh;
+        transform: translate(0px, -20%);
+        opacity: 0;
+        transition: all 0.8s ease 0s;
+    }
+
+    .quote.active {
+        transform: translate(0px, 0%);
+        opacity: 1;
+    }
+    
+
 }

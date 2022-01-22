@@ -3,7 +3,7 @@
     .quote {
         font-size: 6vw;
         margin: 0;
-        margin-top: -6vh;
+        
     }
 
     .quote .author {
@@ -47,5 +47,18 @@
         font-size: 5.5vw;
         text-align: left;
     }
+
+    .uni-work {
+        transform: translate(0px, 4vh);
+        opacity: 0;
+        transition: all 0.8s ease 0s;
+    }
+    
+    .uni-work.active {
+        transform: translate(0px, 0vh);
+        opacity: 1;
+        transition: all 0.8s ease 0s;
+    }
+    
 
 }

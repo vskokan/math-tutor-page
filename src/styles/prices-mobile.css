@@ -50,5 +50,17 @@
     font-size: 6vw;
     text-align: center;
 }
+
+.list {
+    transform: translate(0px, -2vh);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.list.active {
+    transform: translate(0px, 0vh);
+    opacity: 1;
+    transition: all 0.8s ease 0.2s;
+}
     
 }
