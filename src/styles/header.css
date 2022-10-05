@@ -3,6 +3,7 @@
     flex-direction: row;
     list-style: none;
     align-items: center;
+    padding-left: 0;
 }
 
 li {
@@ -12,13 +13,13 @@ li {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     color: rgb(255, 255, 255);
     background-color: #000;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.6vw;
-    padding: 5vh 0px;
+    padding: 5vh 5vw;
     height: 5vh;
     position: sticky;
     left: 0;
@@ -107,9 +108,7 @@ a.button:visited {
     text-decoration: none;
   }
 
-.location, .phone, .button {
-    margin: 0px 1vw;
-}
+
 
 .phone {
     letter-spacing: 2px;

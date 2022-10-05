@@ -34,22 +34,35 @@
 }
 
 .reviews-header {
+    color: #000;
     font-size: 3vw;
     font-weight: 700;
-    margin-bottom: 10vh;
-    transform: translate(0px, 120%);
+    background-color: transparent;
+    transform: translate(0px, 50px);
     opacity: 0;
     transition: all 0.8s ease 0s;
 }
+
+.reviews-header.active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
 
 .reviews-text {
     /* width: 70%; */
     margin-top: 10px;
     font-size: 1.8vw;
-    transform: translate(0px, -20%);
+    transform: translate(0px, 50px);
     opacity: 0;
     transition: all 0.8s ease 0s;
+    background-color: #fff;
     
+}
+
+.reviews-text.active {
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 .carousel {
@@ -64,7 +77,7 @@
 }
 
 .active {
-    transform: translate(0px, 0%);
+    transform: translate(0px, 0px);
     opacity: 1;
 }
 

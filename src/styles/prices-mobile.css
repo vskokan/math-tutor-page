@@ -1,66 +1,73 @@
 @media (max-width: 480px) {
+  .prices-header {
+    font-size: 8vw;
+    text-align: center;
+  }
 
-    .prices-header {
-        font-size: 8vw;
-        text-align: center;
-    }
-
-    .prices {
-        /* position: relative;
+  .prices {
+    /* position: relative;
         top: -20px; */
-        min-height: 30vh;
-        padding: 10px;
-        padding: 5vh 10px;
-    }
+    min-height: 30vh;
+    padding: 10px;
+    padding: 5vh 10px;
+  }
 
-    .priceanchor {
-        top: -6vh;
-    }
+  .priceanchor {
+    top: -6vh;
+  }
 
-    .list {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 2vh;
-        padding: 5vh 0px;
-    }
+  .list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    padding: 5vh 0px;
+  }
 
-    .card {
-        width: 85%;
-    }
+  .card {
+    width: 85%;
+  }
 
-    .card-header {
-        font-size: 7vw;
-        height: 7vh;
-    }
+  .card-header {
+    font-size: 5vw;
+    height: 7vh;
+  }
 
-    .description {
-        font-size: 5vw;
-        height: auto;
-        padding-bottom: 2vh;
-    }
+  .description {
+    font-size: 4vw;
+    height: auto;
+    padding-bottom: 2vh;
+  }
 
-    .price {
-        font-size: 7vw;
-    }
+  .card-container {
+    flex-direction: column;
+  }
+
+  .home, .online {
+    font-size: 5vw;
+  }
 
 
-.discount {
+  .price {
+    font-size: 5vw;
+    margin-top: 1vh;
+  }
+
+  .discount {
     /* margin-top: 10px; */
     font-size: 6vw;
     text-align: center;
-}
+  }
 
-.list {
+  .list {
     transform: translate(0px, -2vh);
     opacity: 0;
     transition: all 0.8s ease 0s;
-}
+  }
 
-.list.active {
+  .list.active {
     transform: translate(0px, 0vh);
     opacity: 1;
     transition: all 0.8s ease 0.2s;
-}
-    
+  }
 }

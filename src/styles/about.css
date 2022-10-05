@@ -7,7 +7,8 @@
     color: #fff;
     padding: 5vh;
     padding-bottom: 10vh;
-    min-height: 70vh;
+    min-height: 99vh;
+    background-image: url(../math.svg);
 }
 
 .quote {
@@ -16,7 +17,7 @@
     font-weight: 500;
     line-height: 1.2;
     /* font-style: italic; */
-    font-size: 2.2vw;
+    font-size: 3vw;
     text-align: center;
     font-weight: 500;
     /* margin-top: 40px; */
@@ -33,7 +34,7 @@
 
 .quote .author {
     font-style: normal;
-    margin-top: 2vh;
+    margin-top: 2.2vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 2vw;
@@ -41,8 +42,9 @@
 
 .photo {
     height: 35vw;
-    border: 3px solid var(--yellow);
-    border-radius: 10px;
+    box-shadow: 20px 20px var(--yellow);
+    /* border: 3px solid var(--yellow); */
+    /* border-radius: 10px; */
     margin-right: 5vw;
     transform: translate(0px, 50px);
     opacity: 0;
@@ -58,6 +60,7 @@
 .about ul {
     display: flex;
     flex-direction: column;
+    gap: 15px;
     list-style: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -123,11 +126,12 @@ i {
 
 .name {
     font-size: 3vw;
+    display: inline-block;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     transform: translate(0px, 120%);
     opacity: 0;
-    transition: all 0.8s ease 0s;
+    transition: all 0.5s ease 0s;
 }
 
 .name.active {
@@ -140,14 +144,18 @@ i {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: var(--yellow);
-    transform: translate(0px, 120%);
+    transform: translate(0px, 20px);
     opacity: 0;
-    transition: all 0.8s ease 0s;
+    transition: all 0.58s ease 0s;
     
 }
 
 .occupation.active {
-    transform: translate(0px, 0%);
+    transform: translate(0px, 0px);
     opacity: 1;
-    transition: all 0.8s ease 0.4s;
+    transition: all 0.5s ease 0.4s;
+}
+
+.classes {
+    font-size: 2vw;
 }
